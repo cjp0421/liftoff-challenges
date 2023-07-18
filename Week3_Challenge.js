@@ -6,7 +6,7 @@ function LongestWord(sen) {
 
     let regex = /[a-zA-Z0-9]/g
 
-    // console.log(wordArray[i].match(regex).length);
+
     let longestWord = wordArray.sort(function (a, b) {
         return b.match(regex).length - a.match(regex).length;
     });
